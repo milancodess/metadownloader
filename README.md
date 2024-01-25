@@ -22,7 +22,7 @@ Will add later
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Apache-2.0 license](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ---
 
