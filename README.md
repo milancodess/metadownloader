@@ -15,8 +15,10 @@ snapsave-downloader is a JavaScript package created to simplify the process of d
 3. Use the provided functions to download videos from Instagram and Facebook effortlessly.
 
 ## Example
-```js
+````
 git clone https://github.com/milanproo/snapsave-downloader
+````
+```js
 const snapsave = require('./snapsave-downloader');
 let URL = await snapsave("https://www.instagram.com/tv/CdmYaq3LAYo/")
 console.log(URL)
