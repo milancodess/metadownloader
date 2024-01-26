@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milanproo/snapsave-downloader.git"
+    "url": "git+https://github.com/milancodess/snapsave-downloader.git"
   },
   "keywords": [
     "instagram",
@@ -25,11 +25,11 @@
   "author": "Milan Bhandari",
   "license": "Apache License 3.0",
   "bugs": {
-    "url": "https://github.com/milanproo/snapsave-downloader/issues"
+    "url": "https://github.com/milancodess/snapsave-downloader/issues"
   },
-  "homepage": "https://github.com/milanproo/snapsave-downloader#readme",
+  "homepage": "https://github.com/milancodess/snapsave-downloader#readme",
   "dependencies": {
-    "got": "^11.8.3",
-    "cheerio": "~1.0.0-rc.5"
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
   }
 }
