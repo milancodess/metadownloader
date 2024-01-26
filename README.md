@@ -16,7 +16,7 @@ snapsave-downloader is a JavaScript package created to simplify the process of d
 
 ## Example
 ````
-git clone https://github.com/milanproo/snapsave-downloader
+git clone https://github.com/milancodess/snapsave-downloader
 ````
 ```js
 const snapsave = require('./snapsave-downloader');
