@@ -19,7 +19,7 @@ snapsave-downloader is a JavaScript package created to simplify the process of d
 git clone https://github.com/milancodess/snapsave-downloader
 ````
 ```js
-const snapsave = require('./snapsave-downloader');
+const snapsave = require('snapsave-downloader');
 let URL = await snapsave("https://www.instagram.com/tv/CdmYaq3LAYo/")
 console.log(URL)
 ```
