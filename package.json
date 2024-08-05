@@ -1,5 +1,5 @@
 {
-  "name": "snapsave-downloader",
+  "name": "@milancodess/snapsave-downloader",
   "version": "1.0.0",
   "description": "snapsave-downloader is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.",
   "main": "src/index.js",
