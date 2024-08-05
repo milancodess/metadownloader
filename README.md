@@ -1,18 +1,18 @@
-# insta-down
+# metadownloader
 
 ## Overview
-`insta-down` is a JavaScript package designed to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
+`metadownloader` is a JavaScript package designed to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
 
 ## Features
 - **Cross-Platform Compatibility:** Download videos from both Instagram and Facebook using JavaScript, making it easy to integrate into various web environments.
-- **Straightforward Integration:** Incorporate `insta-down` into your web projects effortlessly to enhance your video downloading functionalities.
+- **Straightforward Integration:** Incorporate `metadownloader` into your web projects effortlessly to enhance your video downloading functionalities.
 - **Lightweight and Fast:** Enjoy a quick and responsive download process without unnecessary complexity, ensuring optimal performance.
-- **User-Friendly:** Designed with a user-friendly interface, `insta-down` provides an intuitive experience for hassle-free video downloads.
+- **User-Friendly:** Designed with a user-friendly interface, `metadownloader` provides an intuitive experience for hassle-free video downloads.
 
 ## Getting Started
-1. Install `insta-down` using npm:
+1. Install `metadownloader` using npm:
     ```bash
-    npm install insta-down
+    npm install metadownloader
     ```
 2. Import the package in your JavaScript file.
 3. Use the provided functions to download videos from Instagram and Facebook effortlessly.
@@ -20,7 +20,7 @@
 ## Example
 
 ```js
-const snapsave = require('insta-down');
+const snapsave = require('metadownloader');
 
 (async () => {
   try {
@@ -54,4 +54,4 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the [LICE
 
 ---
 
-Get started with `insta-down` in your JavaScript projects and enhance your video downloading experience on the web!
+Get started with `metadownloader` in your JavaScript projects and enhance your video downloading experience on the web!
