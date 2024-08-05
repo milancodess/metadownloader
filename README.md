@@ -1,43 +1,38 @@
-# igDl
+# snapsave-downloader
 
 ## Overview
-igDl is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
+`snapsave-downloader` is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
 
 ## Features
 - **Cross-Platform Compatibility:** Download videos from both Instagram and Facebook using JavaScript, making it easy to integrate into various web environments.
-- **Straightforward Integration:** Incorporate snapsave-downloader into your web projects effortlessly to enhance your video downloading functionalities.
+- **Straightforward Integration:** Incorporate `snapsave-downloader` into your web projects effortlessly to enhance your video downloading functionalities.
 - **Lightweight and Fast:** Enjoy a quick and responsive download process without unnecessary complexity, ensuring optimal performance.
-- **User-Friendly:** Designed with a user-friendly interface, snapsave-downloader provides an intuitive experience for hassle-free video downloads.
+- **User-Friendly:** Designed with a user-friendly interface, `snapsave-downloader` provides an intuitive experience for hassle-free video downloads.
 
 ## Getting Started
+1. Install `snapsave-downloader` using npm:
+    ```bash
+    npm install @milancodess/snapsave-downloader
+    ```
+2. Import the package in your JavaScript file.
+3. Use the provided functions to download videos from Instagram and Facebook effortlessly.
 
-### Installation
-To install igDl, follow these steps:
+## Example
 
-1. **Install the package via npm:**
-   ```bash
-   npm install igDl
-   ```
+```js
+const snapsave = require('@milancodess/snapsave-downloader');
 
-### Usage
-1. **Import the package in your JavaScript file:**
-   ```js
-   const snapsave = require('igDl');
-   ```
+(async () => {
+  try {
+    const result = await snapsave("https://www.instagram.com/tv/CdmYaq3LAYo/");
+    console.log(result);
+  } catch (error) {
+    console.error(error);
+  }
+})();
+```
 
-2. **Use the provided functions to download videos from Instagram and Facebook effortlessly:**
-   ```js
-   (async () => {
-     try {
-       let URL = await snapsave("https://www.instagram.com/tv/CdmYaq3LAYo/");
-       console.log(URL);
-     } catch (error) {
-       console.error(error);
-     }
-   })();
-   ```
-
-### Output Example
+## Output Example
 ```json
 {
   "developer": "@Milan Bhandari",
@@ -59,11 +54,4 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the [LICE
 
 ---
 
-Get started with igDl in your JavaScript projects and enhance your video downloading experience on the web!
-
-## Contact
-For any questions or support, feel free to contact me on GitHub or via email at [githubmilan@gmail.com](mailto:githubmilan@gmail.com).
-
-Happy downloading!
-
-[Milan Bhandari](https://github.com/milancodess)
+Get started with `snapsave-downloader` in your JavaScript projects and enhance your video downloading experience on the web!
