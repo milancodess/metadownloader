@@ -1,14 +1,14 @@
 {
-  "name": "@milancodess/snapsave-downloader",
+  "name": "igDl",
   "version": "1.0.0",
-  "description": "snapsave-downloader is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.",
+  "description": "igDl is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milancodess/snapsave-downloader.git"
+    "url": "git+https://github.com/milancodess/igDl.git"
   },
   "keywords": [
     "instagram",
@@ -21,9 +21,9 @@
   "author": "Milan Bhandari",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/milancodess/snapsave-downloader/issues"
+    "url": "https://github.com/milancodess/igDl/issues"
   },
-  "homepage": "https://github.com/milancodess/snapsave-downloader#readme",
+  "homepage": "https://github.com/milancodess/igDl#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12"
