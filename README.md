@@ -1,18 +1,18 @@
-# snapsave-downloader
+# igDl
 
 ## Overview
-`snapsave-downloader` is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
+`igDl` is a JavaScript package designed to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.
 
 ## Features
 - **Cross-Platform Compatibility:** Download videos from both Instagram and Facebook using JavaScript, making it easy to integrate into various web environments.
-- **Straightforward Integration:** Incorporate `snapsave-downloader` into your web projects effortlessly to enhance your video downloading functionalities.
+- **Straightforward Integration:** Incorporate `igDl` into your web projects effortlessly to enhance your video downloading functionalities.
 - **Lightweight and Fast:** Enjoy a quick and responsive download process without unnecessary complexity, ensuring optimal performance.
-- **User-Friendly:** Designed with a user-friendly interface, `snapsave-downloader` provides an intuitive experience for hassle-free video downloads.
+- **User-Friendly:** Designed with a user-friendly interface, `igDl` provides an intuitive experience for hassle-free video downloads.
 
 ## Getting Started
-1. Install `snapsave-downloader` using npm:
+1. Install `igDl` using npm:
     ```bash
-    npm install @milancodess/snapsave-downloader
+    npm install igDl
     ```
 2. Import the package in your JavaScript file.
 3. Use the provided functions to download videos from Instagram and Facebook effortlessly.
@@ -20,7 +20,7 @@
 ## Example
 
 ```js
-const snapsave = require('@milancodess/snapsave-downloader');
+const snapsave = require('igDl');
 
 (async () => {
   try {
@@ -54,4 +54,4 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the [LICE
 
 ---
 
-Get started with `snapsave-downloader` in your JavaScript projects and enhance your video downloading experience on the web!
+Get started with `igDl` in your JavaScript projects and enhance your video downloading experience on the web!
