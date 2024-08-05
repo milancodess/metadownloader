@@ -1,14 +1,14 @@
 {
-  "name": "igDl",
+  "name": "insta-down",
   "version": "1.0.0",
-  "description": "igDl is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.",
+  "description": "insta-down is a JavaScript package created to simplify the process of downloading videos from Instagram and Facebook. With a focus on simplicity and efficiency, this tool allows you to integrate video downloading capabilities seamlessly into your web applications.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milancodess/igDl.git"
+    "url": "git+https://github.com/milancodess/insta-down.git"
   },
   "keywords": [
     "instagram",
@@ -21,9 +21,9 @@
   "author": "Milan Bhandari",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/milancodess/igDl/issues"
+    "url": "https://github.com/milancodess/insta-down/issues"
   },
-  "homepage": "https://github.com/milancodess/igDl#readme",
+  "homepage": "https://github.com/milancodess/insta-down#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12"
